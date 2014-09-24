@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Helgart/YASS/issues"
   },
-  "homepage": "https://github.com/Helgart/YASS"
+  "homepage": "https://github.com/Helgart/YASS",
+  "dependencies": {
+    "express": "^4.9.4"
+  }
 }

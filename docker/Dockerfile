@@ -1,6 +1,6 @@
 FROM dockerfile/nodejs
 MAINTAINER Michael FORASTE <michael.foraste@gmail.com>
 
-WORKDIR ../application
+EXPOSE 8080
 
-ENTRYPOINT node
+ENTRYPOINT node application/index.js

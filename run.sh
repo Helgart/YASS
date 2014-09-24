@@ -1,4 +1,4 @@
 #!/bin/sh
 
 docker build -t yass ./docker
-docker run -ti yass
+docker run -ti -v `pwd`:/data yass
