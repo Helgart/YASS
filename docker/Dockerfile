@@ -5,4 +5,4 @@ RUN npm install supervisor -g
 
 EXPOSE 80
 
-ENTRYPOINT supervisor application/server.js
+ENTRYPOINT supervisor Application/Server.js
