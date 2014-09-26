@@ -1,6 +1,8 @@
 FROM dockerfile/nodejs
 MAINTAINER Michael FORASTE <michael.foraste@gmail.com>
 
+RUN npm install supervisor -g
+
 EXPOSE 80
 
-ENTRYPOINT node application/server.js
+ENTRYPOINT supervisor application/server.js
