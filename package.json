@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Helgart/YASS",
   "dependencies": {
-    "express": "^4.9.4"
+    "express": "^4.9.4",
+    "express-livereload": "0.0.24"
   }
 }
