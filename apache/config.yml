@@ -1,0 +1,13 @@
+name: apache
+order: 1
+type: platform
+options:
+    detached: true
+    interactive: true
+    tty: true
+    expose:
+        - "80:80"
+    mount:
+        - "pool:/etc/apache2/conf.d"
+    # link:
+    #     - yass
