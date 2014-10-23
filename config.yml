@@ -5,5 +5,5 @@ options:
     detached: true
     interactive: true
     tty: true
-    expose:
-        - "8880:80"
+    mount:
+        - ".:/data"
