@@ -18,4 +18,3 @@ RUN a2enmod proxy_http
 
 EXPOSE 80
 ENTRYPOINT /usr/sbin/apache2 -DFOREGROUND
-#ENTRYPOINT bash
