@@ -2,8 +2,5 @@ name: yass
 order: 1
 type: application
 options:
-    detached: true
-    interactive: true
-    tty: true
     mount:
         - ".:/data"
