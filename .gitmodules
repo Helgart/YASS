@@ -1,6 +1,3 @@
-[submodule "platform/YASS"]
-	path = platform/YASS
-	url = git@github.com:Helgart/YASS.git
 [submodule "application/YASS"]
 	path = application/YASS
 	url = git@github.com:Helgart/YASS.git

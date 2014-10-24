@@ -6,7 +6,7 @@ options:
     interactive: true
     tty: true
     expose:
-        - "8080:80"
+        - "80:80"
     mount:
         - "pool:/etc/apache2/conf.d"
     link:
