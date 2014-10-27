@@ -1,6 +1,0 @@
-name: yass
-order: 1
-type: application
-options:
-    mount:
-        - ".:/data"
