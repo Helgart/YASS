@@ -1,5 +1,5 @@
-name: laravel
+name: php
 type: layer
 options:
     depend:
-        - php
+        - apache

@@ -1,4 +1,4 @@
-name: apache
+name: proxy
 type: platform
 options:
     expose:
@@ -7,6 +7,7 @@ options:
         - "pool:/etc/apache2/conf.d"
     link:
         - yass
+        - mariage
 environements:
     dev:
         expose:
