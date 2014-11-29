@@ -1,6 +1,6 @@
 [submodule "application/YASS"]
 	path = application/YASS
-	url = git@github.com:Helgart/YASS.github
+	url = git@github.com:Helgart/YASS.git
 [submodule "application/mariage"]
 	path = application/mariage
 	url = https://michael_foraste@bitbucket.org/michael_foraste/mariage.git
