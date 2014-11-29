@@ -1,0 +1,22 @@
+{
+  "name": "YASS",
+  "version": "0.0.0",
+  "description": "Yet Another Scribus Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Helgart/YASS.git"
+  },
+  "author": "Michael FORASTE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Helgart/YASS/issues"
+  },
+  "homepage": "https://github.com/Helgart/YASS",
+  "dependencies": {
+    "express": "^4.9.4"
+  }
+}
